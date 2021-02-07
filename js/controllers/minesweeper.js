@@ -93,7 +93,7 @@ $.Controller('Controller.Minesweeper',{
         // change background-color
         $('#minesweeper').colorBlend([
             {param:'background-color', colorList:['white', '#ff915a'],
-                cycles:1, duration:900, strobe:false}
+                cycles:1, duration: 300, strobe:false}
         ]);
     },
     
@@ -111,7 +111,7 @@ $.Controller('Controller.Minesweeper',{
         // change background-color
         $('#minesweeper').colorBlend([
             {param:'background-color', colorList:['white', '#87cf87'], 
-                cycles:1, duration:900, strobe:false}
+                cycles:1, duration: 300, strobe:false}
         ]);
     },
     
