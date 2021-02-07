@@ -27,7 +27,7 @@ html {
 body {
     font-family: Helvetica, Arial, sans-serif;
     height: 100%;
-    background: #e0e0e0 url(../img/bg_page.svg) 0 0 repeat;
+    background: #e0e0e0 url(/img/bg_page.svg) 0 0 repeat;
 }
 h1 {
     font-family: Bungee Inline, Arial, Helvetica, sans-serif;
