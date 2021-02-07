@@ -35,6 +35,8 @@ h1 {
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
     padding: 30px;
+    position: relative;
+    left: -40px;
 }
 h1 span {
     position: relative;
