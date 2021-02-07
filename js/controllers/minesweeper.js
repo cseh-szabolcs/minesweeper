@@ -146,6 +146,7 @@ $.Controller('Controller.Minesweeper',{
      */
     "#minesweeper .main contextmenu": function($el, ev)
     {
+        ev.preventDefault();
         return false;
     }
     
