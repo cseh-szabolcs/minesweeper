@@ -184,8 +184,8 @@ table td {
 }
 .gitHub a {
     font-size: 0.8rem;
-    color: #ff7036;
-    text-shadow: 2px 2px 4px rgb(238, 231, 178, 1);
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 body {
     background-color: #e0e3ff;
