@@ -1,3 +1,5 @@
 # minesweeper
-An older project of mine where I implemented minesweeper in JavaScriptMVC.
+Minesweeper implementation in JavaScript and JavaScriptMVC-library.
 
+#### 
+http://games.nanoscript.org/minesweeper/
