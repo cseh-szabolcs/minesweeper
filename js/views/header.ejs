@@ -1,0 +1,26 @@
+<% if (display == 'game') { %>
+
+    <div class="time">
+        <img src="img/icon_clock.png" alt="" width="40" height="40" />
+        <span id="minesweeperTime">0</span>
+    </div>
+    <div class="secured">
+        <img src="img/icon_flag.png" alt="" width="40" height="40" />
+        <span id="minesweeperFlags">0</span>
+    </div>
+    <div class="mines">
+        <img src="img/icon_mine.png" alt="" width="40" height="40" />
+        <span id="minesweeperMines">0</span>
+    </div>
+
+<% } else if (display == 'gameOver') { %>
+
+    <p class="gameOver">Game over!</p>
+    <button onclick="Controller.Minesweeper.instance.onNewGame();">New Game</button>
+
+<% } else if (display == 'gameWon') { %>
+
+    <p class="gameWon">Good! Time: <%= gameTime %> Sek.</p>
+    <button onclick="Controller.Minesweeper.instance.onNewGame();">New Game</button>
+
+<% } //endif %>

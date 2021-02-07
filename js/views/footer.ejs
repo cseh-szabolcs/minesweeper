@@ -1,0 +1,10 @@
+<div class="left">
+    <input type="radio" name="minesweeperLevel" id="minesweeperLevel1" value="1" <% if (level == 1) { %> checked="checked" <% } %> />
+    <label for="minesweeperLevel1"><strong>Normal</strong> (cols: 9, rows: 9, mines: 11)</label>
+    <br />
+    <input type="radio" name="minesweeperLevel" id="minesweeperLevel2" value="2" <% if (level == 2) { %> checked="checked" <% } %> />
+    <label for="minesweeperLevel2"><strong>Nightmare</strong> (cols: 15, rows: 15, mines: 40)</label>
+</div>
+<div class="right">
+    <button onclick="Controller.Minesweeper.instance.onNewGameLevel();">OK</button>
+</div>
