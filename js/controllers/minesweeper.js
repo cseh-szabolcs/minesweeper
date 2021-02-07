@@ -92,7 +92,7 @@ $.Controller('Controller.Minesweeper',{
         this.gameReferee.getAndResetGametime();
         // change background-color
         $('#minesweeper').colorBlend([
-            {param:'background-color', colorList:['white', '#cf8787'],
+            {param:'background-color', colorList:['white', '#ff915a'],
                 cycles:1, duration:900, strobe:false}
         ]);
     },
