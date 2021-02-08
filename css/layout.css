@@ -155,6 +155,7 @@ table td {
 #minesweeper .header button {
     text-align: center;
     width: 160px;
+    padding: 5px;
 }
 #minesweeper .footer {
     padding: 8px 15px 8px 15px;
