@@ -72,14 +72,14 @@ table td {
 #minesweeper .main {
     margin: 0 auto;
     overflow: hidden;
-    border: 1px solid transparent;
+    border: 1px solid #ddd;
     color: #999;
 }
 #minesweeper li {
     width: 40px;
     height: 40px;
     float: left;
-    border: 1px solid #444;
+    border: 1px solid #2071b5;
     background: url(../img/bg_down.png) 0 0 no-repeat;
 }
 #minesweeper li:hover {
@@ -98,7 +98,7 @@ table td {
     height: 36px;
 }
 #minesweeper li.open {
-    border-color: #444;
+    border-color: #ccc;
 }
 #minesweeper li.open img {
     cursor: default;
@@ -115,7 +115,7 @@ table td {
     height: 80px;
     position: relative;
     background: #eee;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     overflow: hidden;
 }
 #minesweeper .header div {
@@ -161,7 +161,7 @@ table td {
 #minesweeper .footer {
     padding: 8px 15px 8px 15px;
     background: #eee;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     overflow: hidden;
     text-align: left;
     font-size: 0.7em;
