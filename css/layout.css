@@ -72,7 +72,8 @@ table td {
 #minesweeper .main {
     margin: 0 auto;
     overflow: hidden;
-    border: 1px solid #999;
+    border: 1px solid transparent;
+    color: #999;
 }
 #minesweeper li {
     width: 40px;
