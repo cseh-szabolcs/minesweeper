@@ -177,7 +177,7 @@ table td {
     float: right;
 }
 #minesweeper .footer button {
-    width: 40px;
+    width: 60px;
     height: 30px;
 }
 .gitHub {
@@ -188,6 +188,14 @@ table td {
     font-size: 0.8rem;
     color: white;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+button {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #454545;
+}
+label {
+    color: #454545;
 }
 body {
     background-color: #e0e3ff;
