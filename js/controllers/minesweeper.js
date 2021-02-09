@@ -63,7 +63,10 @@ $.Controller('Controller.Minesweeper',{
      */
     "li img contextmenu": function($el, ev)
     {
-        if (this.gameReferee.state !== Model.GameReferee.GAME_RUNNING) {return false;}
+        ev.preventDefault();
+        if (this.gameReferee.state !== Model.GameReferee.GAME_RUNNING) {
+            return false;
+        }
         var cellId = $el.attr('class');
         this.boardGame.setMarker(cellId);
         this.gameReferee.updateHeader();

@@ -219,19 +219,22 @@ $.Class("Model.BoardGame", {
         
         // core
         switch (true) {
-            // setze Fragezeichen
+            // set question-mark
             case (cell.marker === Model.BoardGame.MARKER_FLAG):
                 cell.marker = Model.BoardGame.MARKER_QUESTION;
                 this._setCellState(cell, Model.BoardGame.Cell.STATE_QUESTION);
                 this.markerFlag++;
                 break;
-            // zurücksetzen
+            // remove marker-flag
             case (cell.marker === Model.BoardGame.MARKER_QUESTION):
                 cell.marker = false;
                 this._setCellState(cell, Model.BoardGame.Cell.STATE_CLOSED);
                 break;
-            // setze Flagge
+            // set marker-flag
             default:
+                if (this.markerFlag === 0) {
+                    break;
+                }
                 cell.marker = Model.BoardGame.MARKER_FLAG;
                 this._setCellState(cell, Model.BoardGame.Cell.STATE_FLAG);
                 this.markerFlag--;
